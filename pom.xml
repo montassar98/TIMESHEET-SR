@@ -9,7 +9,7 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>tn.esprit.spring</groupId>
-	<artifactId>timesheet</artifactId>
+	<artifactId>timesheett</artifactId>
 	<version>1.0</version>
 	<name>timesheet</name>
 	<packaging>war</packaging>
@@ -23,7 +23,7 @@
 		<dependency>
   			<groupId>junit</groupId>
   			<artifactId>junit</artifactId>
-  			<version>4.11</version>
+  			<version>4.12</version>
   			<scope>test</scope>
 		</dependency>
 		<dependency>
@@ -147,12 +147,12 @@
 	</build>
 	<distributionManagement>
 		<snapshotRepository>
-      <id>nexusdeploymentrepo</id>
-      <url>http://localhost:8081/repository/maven-snapshotts/</url>
-    </snapshotRepository>
-	<repository>
-	  <id>nexusdeploymentrepo</id>
-      <url>http://localhost:8081/repository/maven-releases/</url>
-    </repository>
+			<id>nexusdeploymentrepo</id>
+			<url>http://localhost:8081/repository/maven-snapshots/</url>
+		</snapshotRepository>
+		<repository>
+			<id>nexusdeploymentrepo</id>
+			<url>http://localhost:8081/repository/maven-releases/</url>
+		</repository>
 	</distributionManagement>
 </project>

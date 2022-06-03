@@ -52,11 +52,11 @@ public class EmployeTest {
 		e.setId(1);
 		assertEquals(1, e.getId());
 		// test de la methode getNom
-		e.setNom("Ghannouchi");
-		assertEquals("Ghannouchi", e.getNom());
+		e.setNom("Hamdi");
+		assertEquals("Hamdi", e.getNom());
 		// test de la methode getPrenom
-		e.setPrenom("Mustapha");
-		assertEquals("Mustapha", e.getPrenom());
+		e.setPrenom("Ghribi");
+		assertEquals("Ghribi", e.getPrenom());
 		// test de la methode getEmail
 		e.setEmail("test@test.tn");
 		assertEquals("test@test.tn", e.getEmail());
